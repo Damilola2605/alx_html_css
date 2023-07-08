@@ -1,0 +1,30 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+main
+{
+    display: flex;
+    flex-direction: row;
+    flex: auto
+}
+article{
+    flex:2;
+    overflow-y: auto;
+
+}
+aside{
+    flex:1;
+    overflow-y: auto;
+}
+.works_on_smartphone{
+width: 1000px;
+height: auto;
+}
+h1, h2, h3{
+    text-align: center;
+}
+header, footer, main {
+    border: 1px solid darkgreen;
+}
