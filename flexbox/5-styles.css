@@ -308,8 +308,6 @@ ul.row {
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
-    display: flex;
-    justify-content: space-between;
   }
   
   .section-title {
