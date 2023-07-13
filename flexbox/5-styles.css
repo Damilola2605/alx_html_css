@@ -58,7 +58,9 @@
     --section-body-padding: 2rem 0 4rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-  
+
+    /** HEADER **/
+    --header-padding: 4rem 0 0;
   
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
@@ -257,8 +259,6 @@ ul.row {
          position: relative;
          z-index: 3;
          background: transparent;
-         display: flex;
-         justify-content: space-between;
   }
   
   /* Footer
@@ -304,6 +304,8 @@ ul.row {
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
+    display: flex;
+    justify-content: space-between;
   }
   
   .section-title {
