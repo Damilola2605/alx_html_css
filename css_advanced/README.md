@@ -1,0 +1,1 @@
+Adding Css to the get school html structure have drafted

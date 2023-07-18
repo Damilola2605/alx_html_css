@@ -1,0 +1,243 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 1400px;
+    height: 3720px;
+}
+
+header{
+    height: 30px;
+    width: 1105px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header img{
+    height: 30;
+    width: 167px;
+}
+
+.nav{
+    height: 15px;
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+main{
+    height: 1095px;
+    width: 1300px;
+    background-image: url("./images/Object.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layer{
+    height: 1010px;
+    width: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.layer h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.layer p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 9px;
+    
+}
+.layer button{
+    background-color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-weight: 13px;
+    margin-bottom: 217px;
+    color: #ffffff;
+    width: 160px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: none;
+    align-content: center;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.5)
+}
+.pros{
+    height: 240px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+}
+.pro .smile{
+    width: 150px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.smile h3{
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Source Sans Pro Black';
+
+}
+.smile p{
+    margin-top: 2px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #C271FF;
+    margin-bottom: 500px;
+    text-align: center;
+}
+.quote{
+    width: 1300px;
+    height: 200px;
+    background-color: #C271FF;
+    background-size: fill;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.quote .all{
+    display: flex;
+}
+.quote .all .img{
+    width: 160px;
+    height: 160px;
+}
+.tutorial{
+    height: 400px;
+    width: 1010px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tutorials h2{
+    margin-bottom: 0;
+    color: #071629;
+    font-size: light;
+    font-family: 'Source Sans Pro Black';
+    text-align: center;
+}
+.tutorial .people{
+    width: 150px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tutorials{
+    height: 20px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.membership h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    color: #C271FF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.memberships{
+    height: 240px;
+    width: 1010px;
+    display: flex;
+    justify-content: space-between;
+}
+.memberships .mem{
+    width: 150px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFF;
+    margin-top: 3px;
+}
+.membership{
+    width: 1300px;
+    height: 450px;
+    background-color: #071629;
+    background-size: fill;
+    background-size: cover;
+    /* margin-bottom: 40px; */
+    margin-top: 40px;
+}
+.membership button{
+    background-color: #C271FF;
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-weight: 13px;
+    /* margin-bottom: 217px; */
+    color: #ffffff;
+    width: 160px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 20px rgba(0,0,0,.5)
+}
+.questions{
+    height: 600px;
+    width: 775px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questions .rowblock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer{
+    background-color: #071629;
+}
+footer .globalblock{
+    display: flex;
+}
+footer a{
+    align-items: end;
+}
+footer img{
+    height: 30;
+    width: 167px;
+}
+footer p{
+    text-align: center;
+}
